@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import Products from "./pages/Products";
 
-function App() {
+const App = () => {
   return (
-    <div className="flex justify-center w-full h-screen items-center">
-      <h1 className="text-2xl text-red-600">Tailwind Integrated</h1>
+    <div>
+      <Products />
     </div>
   );
-}
+};
 
 export default App;
