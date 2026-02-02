@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./../logo.png";
 const Navbar = () => {
   return (
-    <div className="w-full px-5 flex justify-between items-center bg-slate-500">
+    <div className="w-full px-5 flex justify-between items-center bg-blue-500">
       <div className="w-[150px]">
         <img src={logo} alt="logo" className="w-full" />
       </div>
